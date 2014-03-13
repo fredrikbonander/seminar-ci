@@ -1,5 +1,5 @@
 /**
- * seminars-ci - v0.1.0 - 2014-03-13
+ * seminars-ci - v0.1.1 - 2014-03-13
  * http://www.ef.com
  *
  * Copyright (c) 2014 EF Education First - CTX
@@ -13,6 +13,10 @@ angular.module('seminar.ci', [])
 
     this.add = function (item) {
         internalQueue.push(item);
+    };
+
+    this.removeAtIndex = function (index) {
+        return internalQueue.splice(index, 1);
     };
 
     this.shift = function () {
