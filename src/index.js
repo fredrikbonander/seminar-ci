@@ -8,6 +8,10 @@ angular.module('seminar.ci', [])
         internalQueue.push(item);
     };
 
+    this.removeAtIndex = function (index) {
+        return internalQueue.splice(index, 1);
+    };
+
     this.shift = function () {
         return internalQueue.shift();
     };
