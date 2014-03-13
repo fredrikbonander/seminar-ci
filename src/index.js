@@ -16,6 +16,10 @@ angular.module('seminar.ci', [])
         return internalQueue.shift();
     };
 
+    this.sayHello = function () {
+        return 'Hello, earth!';
+    };
+
     Object.defineProperty(this, 'length', {
         get: function () {
             return internalQueue.length;

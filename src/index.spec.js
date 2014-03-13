@@ -16,4 +16,9 @@ describe('seminar-ci app', function () {
         expect(MessageQueue.removeAtIndex(1)).toEqual(['numberSix']);
         expect(MessageQueue.length).toBe(2);
     }));
+
+    it('should do stuff', inject(function (MessageQueue) {
+        var hello = MessageQueue.sayHello();
+        expect(hello).toBe('Hello, earth!');
+    }))
 });
