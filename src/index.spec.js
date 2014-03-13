@@ -20,5 +20,5 @@ describe('seminar-ci app', function () {
     it('should do stuff', inject(function (MessageQueue) {
         var hello = MessageQueue.sayHello();
         expect(hello).toBe('Hello, earth!');
-    }))
+    }));
 });
