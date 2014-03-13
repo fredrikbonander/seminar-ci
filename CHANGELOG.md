@@ -1,3 +1,11 @@
+<a name="v0.1.2"></a>
+### v0.1.2 (2014-03-13)
+
+
+#### Features
+
+* **MessageQueue:** can say hello ([5d3fc5c6](https://github.com/EFEdcuationFirstMobile/turbo-bear/commit/5d3fc5c668d47c201dafdfd4fa569cad762ff235))
+
 <a name="v0.1.1"></a>
 ### v0.1.1 (2014-03-13)
 

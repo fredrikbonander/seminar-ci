@@ -1,5 +1,5 @@
 /**
- * seminars-ci - v0.1.1 - 2014-03-13
+ * seminars-ci - v0.1.2 - 2014-03-13
  * http://www.ef.com
  *
  * Copyright (c) 2014 EF Education First - CTX
@@ -21,6 +21,10 @@ angular.module('seminar.ci', [])
 
     this.shift = function () {
         return internalQueue.shift();
+    };
+
+    this.sayHello = function () {
+        return 'Hello, earth!';
     };
 
     Object.defineProperty(this, 'length', {
