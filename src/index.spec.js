@@ -8,7 +8,6 @@ describe('seminar-ci app', function () {
         expect(MessageQueue.length).toBe(1);
     }));
 
-
     it('should remove item from queue at specified index', inject(function (MessageQueue) {
         MessageQueue.add('Scrooge');
         MessageQueue.add('numberSix');
