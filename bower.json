@@ -1,0 +1,25 @@
+{
+  "name": "seminars-ci",
+  "version": "0.1.0",
+  "main": "dist/senubars-ci.min.js",
+  "ignore": [
+        "src",
+        ".bowerrc",
+        ".gitignore",
+        "bower.json",
+        "Gruntfile.js",
+        "package.json"
+    ],
+  "devDependencies": {
+  },
+  "dependencies": {
+    "angular": "1.2.12",
+    "angular-mocks": "1.2.12",
+    "angular-sanitize": "1.2.12",
+    "angular-route": "1.2.12",
+    "angular-animate": "1.2.12",
+    "angular-cookies": "1.2.12",
+    "lodash": "latest",
+    "ng-amd": "latest"
+  }
+}

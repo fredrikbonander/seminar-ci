@@ -1,0 +1,28 @@
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+*~
+._*
+*.swp
+/logs/
+bin/
+tmp/
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+
+### CTX Boilerplate ###
+
+# Npm & Bower modules
+/node_modules/
+/vendor/
+
+# builds and test related
+/build/
+/coverage/
+test-results.xml
